@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form</title>
+</head>
+
+<body style="background-color: black;"> <div>
+
+
+    
+        <form action="/action.php"> 
+            <div style="margin-top: 40px;" >
+            <fieldset style="color: white; background-color: black; margin-left: 590px; margin-right: 590px; height: 600px; width: 350px;">
+                <legend style="color: white; text-align: center; font-weight: 100; font-size: larger;"> CREATE YOUR ACCOUNT  </legend>
+                <div style="margin-left: 6px;">
+                <lebel for="email" style="margin-bottom: 1px;"> ENTER YOUR EMAIL ID: </lebel> <br>
+                <input type="email" id="email" name="email" placeholder="xyz@gmail.com" style="margin-bottom: 1px;"> <br>
+                <lebel for="phone" style="margin-bottom: 1px;"> ENTER YOUR PHONE NO.:</lebel> <br>
+                <input type="tel" id="phone" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}" placeholder="phone no" style="margin-bottom: 1px;"> <br>
+                <lebel for="fname" style="margin-bottom: 1px;"> FIRST NAME: </lebel> <br>
+                <input type="text" id="fname" placeholder="first name" style="margin-bottom: 1px;"> <br>
+                <lebel for="lname" style="margin-bottom: 1px;"> LAST NAME: </lebel> <br>
+                <input type="text" id="lname" placeholder="last name" style="margin-bottom: 1px;"> <br>
+                <lebel for="password" style="margin-bottom: 1px;"> PASSWORD: </lebel> <br>
+                <input type="password" id="set password" placeholder="password" style="margin-bottom: 1px;"> <br>
+                <lebel for="password" style="margin-bottom: 1px;"> CONFIRM PASSWORD: </lebel> <br>
+                <input type="confirmpassword" id="confirmpassword" placeholder="Re-enter password"> <br> <br>
+                <input type="date" id="dob" style="margin-bottom: 1px;">
+                <label for="dob" style="color: rgba(242, 239, 239, 0.871); " style="margin-bottom: 1px;"> (DOB)</label> <br> <br>
+                <lebel for="city"> WHAT IS YOUR CITY ?</lebel> <br>
+                <select id="city" name="city">
+                    <option value="andhra pradesh"> andhra pradesh</option>
+                    <option value="delhi"> delhi</option>
+                    <option value="bihar"> bihar</option>
+                    <option value="banglore"> banglore</option>
+                    <option value="jharkhand"> jharkhand</option>
+                    <option value="haryana"> haryana</option>
+                    <option value="gujrat">gujrat</option>
+                    <option value="tamilnadu">tamilnadu</option>
+                    <option value="madhya pradesh"> madhya pradesh</option>
+                </select> <br>
+                <bold> WHAT IS YOUR CLASS ? </bold> <br>
+                <input type="radio" value="class11" name="class" id="101">
+                <lebel for="101"> class xi</lebel> <br>
+                <input type="radio" value="class12" name="class" id="102">
+                <lebel for="102"> class xii</lebel> <br>
+                <bold> CHOOSE YOUR FAVOURITE SUBJECT </bold> <br>
+                <input type="checkbox" value="favourite" name="subject"> maths <br>
+                <input type="checkbox" value="favourite" name="subject"> physics <br>
+                <input type="checkbox" value="favourite" name="subject"> english <br>
+                <input type="checkbox" value="favourite" name="subject"> chemistry <br>
+                <lebel for="typehere"> TELL MORE ABOUT YOUR SELF </lebel> <br>
+                <input type="textarea" name="message" rows="10" cols="30"> <br>  <br>
+
+                <div style="margin-left: 110px; "> <button style="color: WHITE; background-color: red;font-size: large; height: 25px; "> SIGN UP</button> </div> </div>
+            
+            </fieldset> </div>
+        </form> </div>
+    </main>
+    
+</div>
+</body>
+
+</html>
